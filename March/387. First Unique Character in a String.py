@@ -27,8 +27,8 @@ class Solution(object):
             if b in s:
                 pass
             else:
-                return i
                 find =True
+                return i
             s.insert(i,b)
             i = i+1
         return -1
