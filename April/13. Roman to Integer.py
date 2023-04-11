@@ -9,8 +9,7 @@ class Solution:
             "L":50,
             "X":10,
             "V":5,
-            "I":1,
-
+            "I":1
         }
         for i in range(length - 1):
             if roma[s[i+1]] > roma[s[i]]:
